@@ -17,4 +17,6 @@ module CopyrightMafa
       years
     end
   end
+
+  ActionView::Base.send :include, CopyrightMafa
 end
